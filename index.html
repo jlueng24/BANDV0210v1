@@ -39,7 +39,8 @@
     #screen-game .question-layout{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:1rem;align-items:start}
     #screen-game .question-layout.hidden{display:none}
     #screen-game .question-visual-card{min-width:0}
-    #screen-game .question-visual{height:clamp(180px,24vw,255px);display:grid;place-items:center}
+    #screen-game .question-visual{height:clamp(180px,24vw,255px);display:flex;align-items:center;justify-content:center}
+    #screen-game .question-visual .flag-img{display:block;width:100%;height:100%;min-width:0;min-height:0;object-fit:contain;object-position:center}
     #screen-game .question-answers{grid-template-columns:minmax(0,1fr);align-content:start}
     #screen-game .answer-extra{grid-column:1/-1}
     #screen-game .question-answers .answer-btn{min-height:3.2rem}
